@@ -1,0 +1,57 @@
+.navbar-nav-scroll{
+    --bs-scroll-height: 100px
+}
+
+.navbar-nav li a{
+    font-size: 17px;
+}
+
+.navbar-brand{
+    letter-spacing: 2px;
+}
+
+.nav-link ,a , .btn{
+    color: #000;
+}
+
+.btn{
+    border:1px solid #000;
+}
+.btn:hover{
+    background-color: #AB2024;
+    border:1px solid #AB2024;
+    transition: 0.4s;
+}
+.btn-outline-primary:active {
+    color: #fff;
+    background-color: #AB2024;
+    border:1px solid #AB2024;
+    transition: 0.4s;
+}
+
+.btn-check:focus+.btn, .btn:focus:focus {
+    box-shadow:none
+}
+
+
+a:hover{
+    color: #AB2024;
+    transition: 0.2s;
+
+}
+
+.nav-link:hover{
+    color: #AB2024;
+    transition: 0.2s;
+}
+
+.modal-body .btn{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+.carousel-item img{
+    height: 630px;
+    width: 100%;
+}

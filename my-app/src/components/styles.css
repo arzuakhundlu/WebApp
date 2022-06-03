@@ -1,57 +1,99 @@
-.navbar-nav-scroll{
-    --bs-scroll-height: 100px
+.navbar-nav-scroll {
+  --bs-scroll-height: 100px;
 }
 
-.navbar-nav li a{
-    font-size: 17px;
+.navbar-nav li a {
+  font-size: 17px;
 }
 
-.navbar-brand{
-    letter-spacing: 2px;
+.navbar-brand {
+  letter-spacing: 2px;
 }
 
-.nav-link ,a , .btn{
-    color: #000;
+.nav-link,
+a,
+.btn {
+  color: #000;
 }
 
-.btn{
-    border:1px solid #000;
+.btn {
+  border: 1px solid #000;
 }
-.btn:hover{
-    background-color: #AB2024;
-    border:1px solid #AB2024;
-    transition: 0.4s;
+.btn:hover {
+  background-color: #ab2024;
+  border: 1px solid #ab2024;
+  transition: 0.4s;
 }
-.btn-outline-primary:active {
+/* .btn-outline-primary.active {
     color: #fff;
     background-color: #AB2024;
     border:1px solid #AB2024;
     transition: 0.4s;
+} */
+
+.btn-check:focus + .btn,
+.btn:focus:focus {
+  box-shadow: none;
 }
 
-.btn-check:focus+.btn, .btn:focus:focus {
-    box-shadow:none
+a:hover {
+  color: #ab2024;
+  transition: 0.2s;
 }
 
-
-a:hover{
-    color: #AB2024;
-    transition: 0.2s;
-
+.nav-link:hover {
+  color: #ab2024;
+  transition: 0.2s;
 }
 
-.nav-link:hover{
-    color: #AB2024;
-    transition: 0.2s;
+.modal-body .btn {
+  border: 1px solid #fff;
+  color: #fff;
 }
 
-.modal-body .btn{
-    border: 1px solid #fff;
-    color: #fff;
+.carousel-item img {
+  height: 630px;
+  width: 100%;
 }
 
+/* Cards */
 
-.carousel-item img{
-    height: 630px;
-    width: 100%;
+.btn-outline-primary.active:hover {
+  background-color: #ab2024;
+  border: 1px solid #ab2024;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.btn-outline-primary.active {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.card {
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5s);
+}
+
+.aboutUs {
+  color: #ab2024;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ab2024;
+}
+
+.product img {
+  transition: all 0.5s ease;
+}
+
+.product img:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5s);
 }

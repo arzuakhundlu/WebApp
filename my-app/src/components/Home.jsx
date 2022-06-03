@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import Product from "./Product";
 
 function Home() {
   return (
@@ -76,6 +77,7 @@ function Home() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <Product/>
     </>
   );
 }

@@ -40,7 +40,7 @@ function Header() {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">
-                  Conatact
+                  Contact
                 </NavLink>
               </li>
             </ul>

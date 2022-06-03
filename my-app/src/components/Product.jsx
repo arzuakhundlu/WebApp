@@ -8,9 +8,9 @@ function Product() {
   const cardItem = (item) => {
     return (
       <>
-        <div className="card my-5 py-4" style={{ width: "18rem" }}>
+        <div className="card my-5 py-4"   key={item.id} style={{ width: "18rem" }}>
           <img src={item.img} className="card-img-top" alt={item.title} />
-          <div key={item.id} className="card-body text-center">
+          <div className="card-body text-center">
             <h5 className="card-title">{item.title}</h5>
             <p className="lead">{item.price}</p>
             <NavLink

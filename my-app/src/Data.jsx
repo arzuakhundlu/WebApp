@@ -14,32 +14,32 @@ export const DATA = [
         img : "/assets/images/products/iphone11.jpg"
     },
     {
-        id : 1,
+        id : 2,
         title : "IPhone 11",
         price : 750,
         desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui harum reiciendis sint soluta rerum, dolore distinctio odio eligendi iure quaerat. Ipsa deleniti laboriosam distinctio voluptatum impedit modi saepe ut id.",
         img : "/assets/images/products/iphone11.jpg"
     },{
-        id : 1,
+        id : 3,
         title : "IPhone 11",
         price : 750,
         desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui harum reiciendis sint soluta rerum, dolore distinctio odio eligendi iure quaerat. Ipsa deleniti laboriosam distinctio voluptatum impedit modi saepe ut id.",
         img : "/assets/images/products/iphone11.jpg"
     },{
-        id : 1,
+        id : 4,
         title : "IPhone 11",
         price : 750,
         desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui harum reiciendis sint soluta rerum, dolore distinctio odio eligendi iure quaerat. Ipsa deleniti laboriosam distinctio voluptatum impedit modi saepe ut id.",
         img : "/assets/images/products/iphone11.jpg"
     },{
-        id : 1,
+        id : 5,
         title : "IPhone 11",
         price : 750,
         desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui harum reiciendis sint soluta rerum, dolore distinctio odio eligendi iure quaerat. Ipsa deleniti laboriosam distinctio voluptatum impedit modi saepe ut id.",
         img : "/assets/images/products/iphone11.jpg"
     }
     ,{
-        id : 1,
+        id : 6,
         title : "IPhone 11",
         price : 750,
         desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui harum reiciendis sint soluta rerum, dolore distinctio odio eligendi iure quaerat. Ipsa deleniti laboriosam distinctio voluptatum impedit modi saepe ut id.",

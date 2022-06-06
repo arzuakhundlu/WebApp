@@ -9,7 +9,7 @@ function Header() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-light">
-        <div className="container-fluid">
+        <div className="container">
           <button
             className="navbar-toggler"
             type="button"

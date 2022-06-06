@@ -14,7 +14,7 @@ function Contact() {
         <div className="row">
           <div className="col-md-5 d-flex justify-content-center">
             <img
-              src="/assets/images/home/img2.jpg"
+              src="/assets/images/home/contact.jpg"
               alt="Contact Us"
               height="400px"
               width="100%"

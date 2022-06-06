@@ -97,3 +97,9 @@ a:hover {
   transform: scale(1.1);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5s);
 }
+
+
+.footer-light{
+  --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}

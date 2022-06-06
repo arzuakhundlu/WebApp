@@ -29,7 +29,7 @@ function About() {
           </div>
           <div className="col-md-6 d-flex justify-content-center">
             <img
-              src="/assets/images/home/img1.jpg"
+              src="/assets/images/home/about-002.png"
               height="400px"
               width="100%"
               alt="About Us"
